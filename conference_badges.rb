@@ -43,7 +43,8 @@ def printer(attendees)
 end
   
 array.each do |num|
-  num 
+  puts num * 5 
+end
   
 
   
