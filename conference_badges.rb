@@ -42,7 +42,8 @@ def printer(attendees)
   assign_rooms(attendees).each{| rooms | puts rooms}
 end
   
-
+array.each do |num|
+  num 
   
 
   
