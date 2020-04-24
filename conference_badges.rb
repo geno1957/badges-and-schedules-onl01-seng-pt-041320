@@ -37,14 +37,16 @@ def assign_rooms(attendees)
 end 
 
 def printer(attendees)
-  binding.pry
-  batch_badge_creator(attendees).each{|badge| puts badge}
+  # binding.pry
+  batch_badge_creator(attendees).each do |badge| 
+    puts badge 
+    end 
   assign_rooms(attendees).each{| rooms | puts rooms}
 end
   
-array.each do |num|
-  puts num * 5 
-end
+# array.each do |num|
+#   puts num * 5 
+# end
   
 
   
