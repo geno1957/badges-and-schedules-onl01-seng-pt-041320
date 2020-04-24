@@ -42,7 +42,9 @@ def printer(attendees)
     binding.pry
     puts badge 
     end 
-  assign_rooms(attendees).each{| rooms | puts rooms}
+  assign_rooms(attendees).each do | rooms | 
+    puts rooms 
+  
 end
   
 # array.each do |num|
